@@ -1,0 +1,108 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: rgb(229, 233, 233);
+	font-size: 62.5%;
+}
+
+.intro {
+	text-align:center;
+	font-size: 2.75em;
+}
+#albumlist{
+	text-align: center;
+	font-size: 2em;
+}
+
+header,
+main,
+footer {
+	background-color: rgb(18, 116, 111); 
+}
+
+header {
+	padding: 1.75em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-align:center;
+}
+
+h1 {
+	font-size: 7.0em;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+	font: size 2.5em;
+}
+
+section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align:center;
+	padding: 0;
+}
+
+nav ul li {
+	text-align:center;
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.50em;
+}
+
+p {
+	padding: 1.25em;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+#closingStatement{
+	text-align:center;
+}
+
+
+@media screen and (max-width: 1100px) {
+	nav ul li {
+		text-align:center;
+		margin: auto;
+		display: block;
+		font-size: 1.50em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
